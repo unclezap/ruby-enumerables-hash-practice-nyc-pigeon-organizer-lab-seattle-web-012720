@@ -14,8 +14,8 @@ def nyc_pigeon_organizer(pigeon_data)
   end
   
   z = {}
-  z[hi] << "hi"
-  z[hello] << "hello"
+  z[:hi] << "hi"
+  z[:hello] << "hello"
   
   
   pigeon_data.each do |first_key,second_key|
