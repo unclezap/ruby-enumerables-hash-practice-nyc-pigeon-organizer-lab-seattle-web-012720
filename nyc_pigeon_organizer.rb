@@ -3,9 +3,7 @@
   
 def nyc_pigeon_organizer(pigeon_data)
   new_hash = {}
-  keys = pigeon_data.keys
-  occups = {}
-  x = {}
+  
   
   
   pigeon_data.each do |first_key,second_key|
