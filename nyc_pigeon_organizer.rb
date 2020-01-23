@@ -11,13 +11,11 @@ def nyc_pigeon_organizer(pigeon_data)
   pigeon_data.each do |first_key,second_key|
     second_key.each do |s_key, third_key|
       third_key.each do |t_key|
-        if new_hash[t_key] == nil
+          if new_hash[t_key] == nil
           new_hash[t_key] = {}
-        else
+          end
           if new_hash[t_key][first_key] ==nil
             new_hash[t_key][first_key] = {}  
-          else
-            
           end
         end
       end
