@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(pigeon_data)
           if new_hash[t_key][first_key][second_key] == nil
              new_hash[t_key][first_key][second_key] = {}
           end
-        end
+        
       end
     end
   end
