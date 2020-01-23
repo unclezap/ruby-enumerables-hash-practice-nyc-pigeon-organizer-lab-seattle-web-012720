@@ -17,8 +17,8 @@ def nyc_pigeon_organizer(pigeon_data)
           if new_hash[t_key][first_key] ==nil
             new_hash[t_key][first_key] = {}  
           end
-          if new_hash[t_key][first_key][second_key] == nil
-             new_hash[t_key][first_key][second_key] = {}
+          if new_hash[t_key][first_key][s_key] == nil
+             new_hash[t_key][first_key][s_key] = {}
           end
         
       end
